@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra navegadora*/
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #333;
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/*Titulo*/
+h1{
+    text-align: center;
+}
+
+/*Footer*/
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: teal;
+}
+footer h2{
+    color: white;
+}
+
+/* Imagen*/
+img{
+    position:static;
+    display: flex;
+    width: 100%;
+}
+
+/*Cajas*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.flex-container div{
+    background-color: gainsboro;
+    width: 300px;
+    height: 300px;
+    margin: 10%;
+    text-align:center;
+    font-size: 30px;
+    line-height: 75px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow:  10px 10px 28px 0px rgb(53, 52, 52);
+}
